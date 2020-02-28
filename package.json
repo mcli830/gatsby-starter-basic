@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-basic",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A basic Gatsby starter with a dynamic Image component.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Michael Li <li.michaelcj@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-minimal"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
