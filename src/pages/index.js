@@ -7,13 +7,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Gatsby Starter Basic" />
-    <div style={{maxWidth: 800, margin: 'auto', padding: '1rem 0'}}>
     <div style={{width: 100, marginBottom: '1rem'}}>
       <Image filename="gatsby-icon.png" />
     </div>
     <h1>Gatsby Starter Basic</h1>
     <p>Welcome to your new Gatsby site.</p>
-    </div>
   </Layout>
 )
 
