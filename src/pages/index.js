@@ -12,6 +12,7 @@ const IndexPage = () => (
     </div>
     <h1>Gatsby Starter Basic</h1>
     <p>Welcome to your new Gatsby site.</p>
+    <Link to="https://www.gatsbyjs.org/docs/">Gatsby documentation</Link>
   </Layout>
 );
 
