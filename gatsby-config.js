@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Basic Starter`,
-    description: `A basic Gatsby starter with a dynamic Image component.`,
+    title: `CSS Forge`,
+    description: `CSS styling without code.`,
     author: `@mcli830`,
   },
   plugins: [
