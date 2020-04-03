@@ -7,12 +7,25 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-alias-imports`,
+      options: {
+        aliases: {
+          src: 'src',
+          layout: 'src/components/layout',
+          components: 'src/components',
+          pages: 'src/pages',
+          theme: 'src/theme',
+        }
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

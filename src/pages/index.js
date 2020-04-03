@@ -1,18 +1,14 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Image from '../components/image';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Layout from 'components/layout/main';
+import SEO from 'components/seo';
+import Workspace from 'components/workspace/workspace';
+import ControlPanel from 'components/control/panel';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Gatsby Starter Basic" />
-    <div style={{width: 100, marginBottom: '1rem'}}>
-      <Image filename="gatsby-icon.png" />
-    </div>
-    <h1>Gatsby Starter Basic</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <Link to="https://www.gatsbyjs.org/docs/">Gatsby documentation</Link>
+    <SEO title="CSS Forge" />
+    <Workspace />
+    <ControlPanel />
   </Layout>
 );
 
